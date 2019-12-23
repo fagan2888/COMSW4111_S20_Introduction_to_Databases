@@ -3,11 +3,10 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
+__NOTE:__ The site for the Spring section of the course is in-progress. Please
+see [previous semster's site](https://donald-f-ferguson.github.io/w4111-Databases/)
+for additional details. I am modifying the course but the spring version will be an evolution
+of previous semester's course.
 
 
 
@@ -40,9 +39,36 @@ The course logically has four modules/sections:
 3. NoSQL -- "Not Only SQL" databases: This section provides motivation for "NoSQL" data models and databases, and covers examples and use cases. The section also includes cloud databases and databases-as-a-service.
 4. Data Enabled Decision Support: This section covers data data warehouses, import and cleanse, OLAP, Pivot Tables, Star Schema, reporting and visualization, and provides and overview of analysis techniques, e.g. clustering, classification, analysis, mining.
 
+### Sections General Approach
+
+This section of _W4111 - Introduction to Databases_ focuses on real world database applications and use cases. The use
+cases come from the instructor's 35 year experience building software systems and solutions that build on databases.
+
+The course covers the core material that all sections cover. There is greater emphasis on projects and less emphasis
+on exams. Previous semesters' sections of the course have been too programming intensive. We are changing to better
+accomodate non-CS majors and students less interested in hardcore programming. The section will offer
+choices of projects that meeting the capabilities and interests of both CS and non-CS students. This includes a
+"No Programming Track" for the course projects.
+
+The course will (attempt) cover the following databases and tools, primarily using cloud versions:
+- Databases:
+    - Relational (Amazon RDS)
+    - Bucket/BLOB/Block (Amazon S3)
+    - Key/Value (Redis, AWS Memcache, AWS DynamoDB)
+    - Document (DynamoDB)
+    - Graph (Neo4j, AWS Neptune)
+    - Wide Columns (Cassandra)
+- Tools:
+    - Tools for database application developers/administrators (DBAs), e.g. MySQL Workbench
+    - Pivot Tables, QuickSight, Kylin
+    - Pandas, Numpyt, Jupyter Notebooks
+    - scikit-learn
+    - MapReduce
+    - Data Pipelines
+
 ### Syllabus and Tentative Lecture Schedule
 
-- __Module I -- Foundational Concepts__
+- __Module I -- Foundational Concepts__<br><br>
   - Lecture 1 -- 24-Jan-2020:
     - Course overview, homework assignments, projects, grading.
     - Database concepts
@@ -77,8 +103,8 @@ The course logically has four modules/sections:
     - Motivation: Integraity and avoiding anaomalies versus query/decision support.
     - Theory: Normal forms, lossless decomposition, functional dependencies, Armstrong's Axioms
     - Examples and best practices.
-- 20-Mar-2020: No class. Spring break.
-- __Module II -- DBMS Implementation__
+- 20-Mar-2020: No class. Spring break.<br><br>
+- __Module II -- DBMS Implementation__<br><br>
   - Lecture 9 -- 27-Mar-2020:
     - Memory hierarchy
     - Disks, storage, data transfer, data placement
@@ -87,7 +113,7 @@ The course logically has four modules/sections:
     - Basics of query processing and query optimization.
     - Transaction processing, recovery and availability, isolation
     - Serializability, locking
-- __Module III -- NoSQL__
+- __Module III -- NoSQL__<br><br>
   - Lecture 11 -- 10-Apr-2020:
     - Motivation, NoSQL models and examples, scenarios
     - CAP Theorem, ACID vs Base
@@ -96,7 +122,7 @@ The course logically has four modules/sections:
     - Document databases
     - Key-value databases
     - Application scenarios and examples.
-- __Module 4__ -- Decision Support/Data Anaysis
+- __Module 4__ -- Decision Support/Data Anaysis<br><br>
   - Lecture 13 -- 24-Apr-2020:
     - Data warehouses
     - Data preparation, MapReduce, Hadoop
@@ -113,8 +139,11 @@ There are two distinct groups of students in this class:
 2. Students with little experience and interest in software engineering, and who are interested in using data in IEOR, economics, applied science and other disciplines.
 
 For this reason there are two tracks students can take in the class. Both tracks cover the same material but differ in homework assignment, projects and exams. The tracks are:
-1. _Non-programming_ focuses on using databases through interfaces and tools. Most tools require some very basic scripting and there is some simple programming in this track.
-2. _Software/Applications_ focuses on building simple but realistic/representative SW systems and applications.
+1. _Non-programming_ focuses on using databases through interfaces and tools. Most tools require some very basic and
+simple scripting, we minimize the need to program. Students will design, implement and use databases to solve
+problems using tools common in data analysis, operations research, economics, scientific computing.
+2. _Software/Applications_ focuses on building simple but realistic/representative SW systems and applications. This
+includes applications like 3-tier, interactive web applications that build on databases.
 
 The first lecture will provide an overview of the tracks.
 
