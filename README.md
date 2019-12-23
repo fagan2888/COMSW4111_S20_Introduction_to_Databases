@@ -1,12 +1,14 @@
-# COMSW4111_S20_Introduction_to_Databases
+
 
 ## Overview
 
-This is the repository for [COMS W4111 -- Introduction to Databases, sections 02, H02 and C02](https://www.cs.columbia.edu/education/courses/course/COMSW4111-2/26942/) for the spring semester, 2020.
+This is the project page and repository for [COMS W4111 -- Introduction to Databases, sections 02, H02 and C02](https://www.cs.columbia.edu/education/courses/course/COMSW4111-2/26942/) for the spring semester, 2020.
 
 ## Textbook and Course Material
 
-Databases is a broad and rapidly evolving area. The foundational concepts are mature and stable. The _recommended_ textbook for the course is _Database System Concepts, 7th Edition_ (by Abraham Silberschatz), ISBN: 978-0078022159. The textbook is very strongly recommended, and most of the course material will come from textbook material.
+Databases is a broad and rapidly evolving area. The foundational concepts are mature and stable. The _recommended_ textbook for the 
+course is _Database System Concepts, 7th Edition_ (by Abraham Silberschatz), ISBN: 978-0078022159. 
+The textbook is very strongly recommended, and most of the course material will come from textbook material.
 
 The [book's website](https://www.db-book.com/db7/) contains a lot of material, including lecture slides, database examples, study questions, ...
 
@@ -83,7 +85,7 @@ The course logically has four modules/sections:
     - Document databases
     - Key-value databases
     - Application scenarios and examples.
-- __Module 4 -- Decision Support/Data Anaysis
+- __Module 4__ -- Decision Support/Data Anaysis
   - Lecture 13 -- 24-Apr-2020:
     - Data warehouses
     - Data preparation, MapReduce, Hadoop
